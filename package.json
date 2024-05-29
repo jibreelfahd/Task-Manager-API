@@ -1,0 +1,30 @@
+{
+  "name": "Task Manager",
+  "version": "1.0.0",
+  "description": "Task Manager",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": "19.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "googleapis": "^128.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "validator": "^13.11.0"
+  }
+}
